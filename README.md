@@ -1,11 +1,30 @@
-## Pro Validations Using Regex, Just Test
+# Pro Validations Using Regex, Just Test
 
+## Install
 
-### Usage
+```
+npm i regexpro
+```
+
+## Usage
+
+### Import
+
+#### Javascript
 
 ```
 const { test } = require('regexpro');
+```
 
+#### Typescript
+
+```
+import { test } from 'regexpro';
+```
+
+#### Example
+
+```
 const isCreditCard = test('CREDIT_CARD', '5555555555554444');
 if (isCreditCard) {
     console.log('Valid credit card number');
@@ -14,7 +33,7 @@ if (isCreditCard) {
 }
 ```
 
-# List of Supported Rules
+### List of Supported Rules
 
 - **CREDIT_CARD**: Validates a 16-digit credit card number.
 - **EMAIL**: Validates an email address.
