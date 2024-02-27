@@ -38,8 +38,8 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - name: Publish
         run: |
-          ls
           cd ./regexpro
-          npm publish --provenance --access public
+          ls
+          # npm publish --provenance --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
