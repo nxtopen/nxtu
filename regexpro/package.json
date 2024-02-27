@@ -1,0 +1,15 @@
+{
+  "name": "regexpro",
+  "version": "0.1.0",
+  "description": "Collection of useful regular expressions and validations",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.20"
+  },
+  "typings": "dist/index.d.ts"
+}

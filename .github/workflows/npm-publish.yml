@@ -8,27 +8,38 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: 16
-      - run: npm i
+          node-version: 20
+      - name: Build
+        run: |
+          cp ./README.md ./regexpro/README.md
+          cd ./regexpro
+          npm i
+          npm i -g typescript
+          npm run build
 
   publish-npm:
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 20
           registry-url: https://registry.npmjs.org/
       - run: npm i
       - name: Bump Version and Publish
         run: |
-          git config --global user.email "gilzon.me@gmail.com"
-          git config --global user.name "Gilson Gilbert"
-          npm publish --access public
+          cd ./regexpro
+          npm publish --provenance --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}

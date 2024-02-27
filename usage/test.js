@@ -1,9 +1,3 @@
-## Pro Validations Using Regex, Just Test
-
-
-### Usage
-
-```
 const { test } = require('regexpro');
 
 const isCreditCard = test('CREDIT_CARD', '5555555555554444');
@@ -12,4 +6,3 @@ if (isCreditCard) {
 } else {
     console.log('Invalid credit card number');
 }
-```
