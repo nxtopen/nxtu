@@ -1,7 +1,7 @@
 {
-  "name": "nxtu",
+  "name": "nxtudev",
   "version": "0.0.1",
-  "description": "Next Generation Utilities",
+  "description": "Utility functions for making the development easier",
   "homepage": "nxtu.dev",
   "categories": [
     "Programming Languages",
