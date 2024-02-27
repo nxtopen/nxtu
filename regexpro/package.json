@@ -1,7 +1,9 @@
 {
   "name": "regexpro",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Collection of useful regular expressions and validations",
+  "homepage": "regexpro.js.org",
+  "categories": ["Programming Languages","Testing","Snippets"],
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc"
@@ -14,5 +16,37 @@
   "typings": "dist/index.d.ts",
   "repository": {
     "url": "https://github.com/nxtopen/regexpro"
-  }
+  },
+  "keywords": [
+    "credit-card",
+    "email",
+    "phone-number",
+    "zip-code",
+    "date",
+    "url",
+    "ip-address",
+    "html-tag",
+    "username",
+    "password",
+    "alphanumeric",
+    "alphabet",
+    "digits",
+    "lowercase",
+    "uppercase",
+    "hex-color",
+    "html-color",
+    "uuid",
+    "mac-address",
+    "file-path",
+    "currency",
+    "html-comment",
+    "md5",
+    "sha1",
+    "sha256",
+    "ssn",
+    "imei",
+    "isbn",
+    "uuid4",
+    "bank-account-number"
+  ]
 }
