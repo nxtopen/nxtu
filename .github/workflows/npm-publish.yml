@@ -27,7 +27,7 @@ jobs:
           npm i -g typescript
           npm run build
 
-  publish-npm:
+  publish:
     needs: build
     defaults:
       run:
@@ -42,8 +42,9 @@ jobs:
         with:
           node-version: 20
           registry-url: https://registry.npmjs.org/
-      - name: Bump Version and Publish
+      - name: Publish
         run: |
+          cd ./regexpro
           npm publish --provenance --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
