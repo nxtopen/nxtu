@@ -1,8 +1,8 @@
 {
-  "name": "x-validate",
+  "name": "nxtu",
   "version": "0.0.1",
-  "description": "Advanced validations for Javascript & Typescript",
-  "homepage": "x-validate.js.org",
+  "description": "Next Generation Utilities",
+  "homepage": "nxtu.dev",
   "categories": [
     "Programming Languages",
     "Testing",
@@ -19,7 +19,7 @@
   },
   "typings": "dist/index.d.ts",
   "repository": {
-    "url": "https://github.com/nxtopen/x-validate"
+    "url": "https://github.com/nxtopen/nxtu"
   },
   "keywords": [
     "credit-card",

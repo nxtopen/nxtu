@@ -3,7 +3,7 @@
 ## Install
 
 ```
-npm i x-validate
+npm i nxtu
 ```
 
 ## Usage
@@ -13,13 +13,13 @@ npm i x-validate
 #### Javascript
 
 ```
-const { test } = require('x-validate');
+const { test } = require('nxtu');
 ```
 
 #### Typescript
 
 ```
-import { test } from 'x-validate';
+import { test } from 'nxtu';
 ```
 
 #### Example
@@ -70,8 +70,8 @@ if (isCreditCard) {
 ## Quality
 
 This plugin is tested and is compatable with NextJS(Typescript) and NodeJS(Javascript)
-Feel free to let us know if any issues on [Github Issues](https://github.com/nxtopen/x-validate/issues)
+Feel free to let us know if any issues on [Github Issues](https://github.com/nxtopen/nxtu/issues)
 
 ## Contribute
 
-Intrested in contributing of new regex patterns? [Open A Ticket](https://github.com/nxtopen/x-validate/issues) with patters and more information. Intrested in updating any code of the plugin? Please feel free to fork the repo and add PR to us.
+Intrested in contributing of new regex patterns? [Open A Ticket](https://github.com/nxtopen/nxtu/issues) with patters and more information. Intrested in updating any code of the plugin? Please feel free to fork the repo and add PR to us.

@@ -1,4 +1,4 @@
-name: x-validate Deployment
+name: nxtu Deployment
 
 on:
   push:
@@ -18,7 +18,7 @@ jobs:
           node-version: 20
       - name: Build
         run: |
-          cd ./x-validate
+          cd ./nxtu
           npm i
           npm i -g typescript
           npm run build
@@ -37,8 +37,8 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - name: Publish
         run: |
-          cp ./README.md ./x-validate/README.md
-          cd ./x-validate
+          cp ./README.md ./nxtu/README.md
+          cd ./nxtu
           npm i
           npm i -g typescript
           npm run build

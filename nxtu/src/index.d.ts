@@ -1,4 +1,4 @@
-declare module 'x-validate' {
+declare module 'nxtu' {
     type Rule = string;
     type RuleName = string;
     type Text = string;
