@@ -1,8 +1,8 @@
 {
   "name": "validpro",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Advanced validations for Javascript & Typescript",
-  "homepage": "regexpro.js.org",
+  "homepage": "validpro.js.org",
   "categories": ["Programming Languages","Testing","Snippets"],
   "main": "dist/index.js",
   "scripts": {
@@ -15,7 +15,7 @@
   },
   "typings": "dist/index.d.ts",
   "repository": {
-    "url": "https://github.com/nxtopen/regexpro"
+    "url": "https://github.com/nxtopen/validpro"
   },
   "keywords": [
     "credit-card",

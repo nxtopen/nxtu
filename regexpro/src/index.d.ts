@@ -1,4 +1,4 @@
-declare module '' {
+declare module 'validpro' {
     type Rule = string;
     type RuleName = string;
     type Text = string;
