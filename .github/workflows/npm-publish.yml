@@ -36,7 +36,6 @@ jobs:
         with:
           node-version: 20
           registry-url: https://registry.npmjs.org/
-      - run: npm i
       - name: Bump Version and Publish
         run: |
           cd ./regexpro
