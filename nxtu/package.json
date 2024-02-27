@@ -1,6 +1,6 @@
 {
   "name": "nxtudev",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Utility functions for making the development easier",
   "homepage": "nxtu.dev",
   "categories": [
@@ -22,35 +22,7 @@
     "url": "https://github.com/nxtopen/nxtu"
   },
   "keywords": [
-    "credit-card",
-    "email",
-    "phone-number",
-    "zip-code",
-    "date",
-    "url",
-    "ip-address",
-    "html-tag",
-    "username",
-    "password",
-    "alphanumeric",
-    "alphabet",
-    "digits",
-    "lowercase",
-    "uppercase",
-    "hex-color",
-    "html-color",
-    "uuid",
-    "mac-address",
-    "file-path",
-    "currency",
-    "html-comment",
-    "md5",
-    "sha1",
-    "sha256",
-    "ssn",
-    "imei",
-    "isbn",
-    "uuid4",
-    "bank-account-number"
+    "validation plugin",
+    "nodejs utility"
   ]
 }
