@@ -1,6 +1,6 @@
 {
   "name": "regexpro",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Collection of useful regular expressions and validations",
   "homepage": "regexpro.js.org",
   "categories": ["Programming Languages","Testing","Snippets"],
