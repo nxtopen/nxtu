@@ -4,7 +4,8 @@
         "module": "commonjs",
         "outDir": "./dist",
         "strict": true,
-        "resolveJsonModule": true
+        "resolveJsonModule": true,
+        "declaration": true,
     },
     "include": [
         "src/**/*.ts"

@@ -1,4 +1,4 @@
-declare module 'regexpro' {
+declare module '' {
     type Rule = string;
     type RuleName = string;
     type Text = string;
