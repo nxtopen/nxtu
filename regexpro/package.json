@@ -12,4 +12,7 @@
     "@types/node": "^20.11.20"
   },
   "typings": "dist/index.d.ts"
+  "repository": {
+    "url": "https://github.com/nxtopen/regexpro"
+  }
 }
