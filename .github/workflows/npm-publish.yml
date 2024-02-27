@@ -44,7 +44,6 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - name: Bump Version and Publish
         run: |
-          cd ./regexpro
           npm publish --provenance --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
