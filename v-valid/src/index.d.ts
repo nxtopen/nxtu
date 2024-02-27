@@ -1,4 +1,4 @@
-declare module 'validpro' {
+declare module 'v-valid' {
     type Rule = string;
     type RuleName = string;
     type Text = string;

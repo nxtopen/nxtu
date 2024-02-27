@@ -19,7 +19,7 @@
   },
   "typings": "dist/index.d.ts",
   "repository": {
-    "url": "https://github.com/nxtopen/validpro"
+    "url": "https://github.com/nxtopen/v-valid"
   },
   "keywords": [
     "credit-card",

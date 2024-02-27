@@ -1,4 +1,4 @@
-name: validpro Deployment
+name: v-valid Deployment
 
 on:
   push:
@@ -18,7 +18,7 @@ jobs:
           node-version: 20
       - name: Build
         run: |
-          cd ./validpro
+          cd ./v-valid
           npm i
           npm i -g typescript
           npm run build
@@ -37,8 +37,8 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - name: Publish
         run: |
-          cp ./README.md ./validpro/README.md
-          cd ./validpro
+          cp ./README.md ./v-valid/README.md
+          cd ./v-valid
           npm i
           npm i -g typescript
           npm run build

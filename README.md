@@ -3,7 +3,7 @@
 ## Install
 
 ```
-npm i validpro
+npm i v-valid
 ```
 
 ## Usage
@@ -13,13 +13,13 @@ npm i validpro
 #### Javascript
 
 ```
-const { test } = require('validpro');
+const { test } = require('v-valid');
 ```
 
 #### Typescript
 
 ```
-import { test } from 'validpro';
+import { test } from 'v-valid';
 ```
 
 #### Example
@@ -70,8 +70,8 @@ if (isCreditCard) {
 ## Quality
 
 This plugin is tested and is compatable with NextJS(Typescript) and NodeJS(Javascript)
-Feel free to let us know if any issues on [Github Issues](https://github.com/nxtopen/validpro/issues)
+Feel free to let us know if any issues on [Github Issues](https://github.com/nxtopen/v-valid/issues)
 
 ## Contribute
 
-Intrested in contributing of new regex patterns? [Open A Ticket](https://github.com/nxtopen/validpro/issues) with patters and more information. Intrested in updating any code of the plugin? Please feel free to fork the repo and add PR to us.
+Intrested in contributing of new regex patterns? [Open A Ticket](https://github.com/nxtopen/v-valid/issues) with patters and more information. Intrested in updating any code of the plugin? Please feel free to fork the repo and add PR to us.
