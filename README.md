@@ -1,4 +1,4 @@
-# Pro Validations Using Regex, Just Test
+# NxtU - Useful lightweight and advanced utility functions
 
 ## Install
 
@@ -22,7 +22,12 @@ const { test } = require('nxtu');
 import { test } from 'nxtu';
 ```
 
-#### Example
+### Options
+
+<details>
+  <summary><b>Validations - Example & Supported</b></summary>
+  
+### Example
 
 ```
 const isCreditCard = test('CREDIT_CARD', '5555555555554444');
@@ -65,6 +70,8 @@ if (isCreditCard) {
 - **ISBN**: Validates an ISBN (International Standard Book Number).
 - **UUID4**: Validates a version 4 UUID.
 - **BANK_ACCOUNT_NUMBER**: Validates a bank account number.
+</details>
+
 
 
 ## Quality
