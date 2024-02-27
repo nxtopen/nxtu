@@ -13,13 +13,13 @@ npm i nxtudev
 #### Javascript
 
 ```
-const { test } = require('nxtudev');
+const { validate } = require('nxtudev');
 ```
 
 #### Typescript
 
 ```
-import { test } from 'nxtudev';
+import { validate } from 'nxtudev';
 ```
 
 ### Options
@@ -30,7 +30,7 @@ import { test } from 'nxtudev';
 ### Example
 
 ```
-const isCreditCard = test('CREDIT_CARD', '5555555555554444');
+const isCreditCard = validate('CREDIT_CARD', '5555555555554444');
 if (isCreditCard) {
     console.log('Valid credit card number');
 } else {

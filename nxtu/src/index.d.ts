@@ -3,5 +3,5 @@ declare module 'nxtu' {
     type RuleName = string;
     type Text = string;
 
-    export function test(ruleName: RuleName, text: Text): boolean;
+    export function validate(ruleName: RuleName, text: Text): boolean;
 }
