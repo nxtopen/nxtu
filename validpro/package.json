@@ -3,7 +3,11 @@
   "version": "0.0.1",
   "description": "Advanced validations for Javascript & Typescript",
   "homepage": "validpro.js.org",
-  "categories": ["Programming Languages","Testing","Snippets"],
+  "categories": [
+    "Programming Languages",
+    "Testing",
+    "Snippets"
+  ],
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc"
