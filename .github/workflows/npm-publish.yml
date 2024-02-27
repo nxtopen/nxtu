@@ -18,7 +18,6 @@ jobs:
           node-version: 20
       - name: Build
         run: |
-          cp ./README.md ./regexpro/README.md
           cd ./regexpro
           npm i
           npm i -g typescript
@@ -38,8 +37,11 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - name: Publish
         run: |
+          cp ./README.md ./regexpro/README.md
           cd ./regexpro
-          ls
-          # npm publish --provenance --access public
+          npm i
+          npm i -g typescript
+          npm run build
+          npm publish --provenance --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
