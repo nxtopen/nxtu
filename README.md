@@ -3,7 +3,7 @@
 ## Install
 
 ```
-npm i nxtu
+npm i nxtudev
 ```
 
 ## Usage
@@ -13,13 +13,13 @@ npm i nxtu
 #### Javascript
 
 ```
-const { test } = require('nxtu');
+const { test } = require('nxtudev');
 ```
 
 #### Typescript
 
 ```
-import { test } from 'nxtu';
+import { test } from 'nxtudev';
 ```
 
 ### Options
