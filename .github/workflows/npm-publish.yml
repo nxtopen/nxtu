@@ -7,9 +7,6 @@ on:
 
 jobs:
   build:
-    defaults:
-      run:
-        shell: bash
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -29,9 +26,6 @@ jobs:
 
   publish:
     needs: build
-    defaults:
-      run:
-        shell: bash
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -44,6 +38,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - name: Publish
         run: |
+          ls
           cd ./regexpro
           npm publish --provenance --access public
         env:
