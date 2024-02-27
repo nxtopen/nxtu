@@ -1,4 +1,4 @@
-declare module 'v-valid' {
+declare module 'x-validate' {
     type Rule = string;
     type RuleName = string;
     type Text = string;

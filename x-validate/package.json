@@ -1,8 +1,8 @@
 {
-  "name": "v-valid",
+  "name": "x-validate",
   "version": "0.0.1",
   "description": "Advanced validations for Javascript & Typescript",
-  "homepage": "nextvalidate.js.org",
+  "homepage": "x-validate.js.org",
   "categories": [
     "Programming Languages",
     "Testing",
@@ -19,7 +19,7 @@
   },
   "typings": "dist/index.d.ts",
   "repository": {
-    "url": "https://github.com/nxtopen/v-valid"
+    "url": "https://github.com/nxtopen/x-validate"
   },
   "keywords": [
     "credit-card",

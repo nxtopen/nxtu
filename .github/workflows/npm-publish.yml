@@ -1,4 +1,4 @@
-name: v-valid Deployment
+name: x-validate Deployment
 
 on:
   push:
@@ -18,7 +18,7 @@ jobs:
           node-version: 20
       - name: Build
         run: |
-          cd ./v-valid
+          cd ./x-validate
           npm i
           npm i -g typescript
           npm run build
@@ -37,8 +37,8 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - name: Publish
         run: |
-          cp ./README.md ./v-valid/README.md
-          cd ./v-valid
+          cp ./README.md ./x-validate/README.md
+          cd ./x-validate
           npm i
           npm i -g typescript
           npm run build

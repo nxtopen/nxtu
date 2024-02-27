@@ -3,7 +3,7 @@
 ## Install
 
 ```
-npm i v-valid
+npm i x-validate
 ```
 
 ## Usage
@@ -13,13 +13,13 @@ npm i v-valid
 #### Javascript
 
 ```
-const { test } = require('v-valid');
+const { test } = require('x-validate');
 ```
 
 #### Typescript
 
 ```
-import { test } from 'v-valid';
+import { test } from 'x-validate';
 ```
 
 #### Example
@@ -70,8 +70,8 @@ if (isCreditCard) {
 ## Quality
 
 This plugin is tested and is compatable with NextJS(Typescript) and NodeJS(Javascript)
-Feel free to let us know if any issues on [Github Issues](https://github.com/nxtopen/v-valid/issues)
+Feel free to let us know if any issues on [Github Issues](https://github.com/nxtopen/x-validate/issues)
 
 ## Contribute
 
-Intrested in contributing of new regex patterns? [Open A Ticket](https://github.com/nxtopen/v-valid/issues) with patters and more information. Intrested in updating any code of the plugin? Please feel free to fork the repo and add PR to us.
+Intrested in contributing of new regex patterns? [Open A Ticket](https://github.com/nxtopen/x-validate/issues) with patters and more information. Intrested in updating any code of the plugin? Please feel free to fork the repo and add PR to us.
